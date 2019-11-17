@@ -1,0 +1,1 @@
+docker run -it -u pavan -e DISPLAY=%DISPLAY% -v D:/:/mnt/d --name lin-code lcode 
