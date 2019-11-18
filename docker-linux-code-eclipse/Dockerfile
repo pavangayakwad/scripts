@@ -11,7 +11,7 @@ RUN echo 'root:123' | chpasswd
 ARG DEBIAN_FRONTEND=noninteractive 	
 
 # firefox is required as this will trigger all x-server related packs
-RUN apt-get update && apt-get install -y firefox	
+RUN apt-get update && apt-get install -y thunar	
 
 RUN apt-get install libnotify4 libnss3 gnupg libxkbfile1 libsecret-1-0 libxss1 wget thunar  -y
 #RUN apt-get install npm -y
