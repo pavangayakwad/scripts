@@ -4,7 +4,7 @@
 #	ex: find /home -type f \( -name "*.deb" \) > debout.txt
 
 #searches in current folder/subfolder where this script is located.
-find . -type f \( -name "*.ts" -or -name "*.log" \) > fileslist.txt
+find . -type f \( -name "*.ts" -or -name "*.log" \) > fileslist_$(date +%Y-%b-%d_%H:%M:%S).txt
 
 #Different  path  instead of dot, searches folder/subfolder
-#find /home -type f \( -name "*.deb" \) > fileslist.txt
+#find /home -type f \( -name "*.deb" \) > fileslist_$(date +%Y-%b-%d_%H:%M:%S).txt
