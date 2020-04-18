@@ -20,3 +20,6 @@ These scripts help you to control brightenss of your external monitors.
 shutdown.sh
 -------------------------------------------
 Make sure any mounted drive is unmounted properly and then shutdown the computer. The script re-confirms shutdown just to avoid any surprise let downs.
+
+
+For any assitance tweet me @PavanGayakwad
