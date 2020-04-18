@@ -10,3 +10,13 @@ Tried to have linux container helps to run VS code and eclipse on GDI+ becuase W
 code1401.deb	- should be replaced with proper deb file of VS code installer
 eclipse19-09R_x64.tar.gz - should be replaced with proper eclipse tar ball downloaded from eclipse site. 
 
+brightness-plus.sh AND brightness-minus.sh
+-------------------------------------------
+These scripts help you to control brightenss of your external monitors. 
+- Copy them to a folder
+- make them executable "chmod +x brightness-{plus/minus}"
+- Assign shortcut keys to these scripts from Gnome keyboard shortcut key setting.
+
+shutdown.sh
+-------------------------------------------
+Make sure any mounted drive is unmounted properly and then shutdown the computer. The script re-confirms shutdown just to avoid any surprise let downs.
