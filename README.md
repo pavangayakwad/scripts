@@ -21,5 +21,8 @@ shutdown.sh
 -------------------------------------------
 Make sure any mounted drive is unmounted properly and then shutdown the computer. The script re-confirms shutdown just to avoid any surprise let downs.
 
+MyArrows.ahk
+-------------------------------------------
+https://www.autohotkey.com/ is THE BEST software to automate most of the keybaord and mouse activities on Windows. This script has all my favorite hot keys for windows that I use daily. 
 
 For any assitance tweet me @PavanGayakwad
