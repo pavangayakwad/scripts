@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 import subprocess
 import sys
+from Xlib import display
 
-arg = sys.argv[1]
+#arg = sys.argv[1]
+arg = "left"
 
 screeninfo = [
     s for s in subprocess.check_output("xrandr").decode("utf-8").split()\
     if s.count("+") == 2
     ]
+
+if display.Display().screen().root.query_pointer()._data["root_x"] <= 1365:
+    arg="right"
 
 if arg == "left":
     match = [s for s in screeninfo if s.endswith("+0+0")][0]
