@@ -1,5 +1,14 @@
-"dependencies": {
-  "package-name": "version",
-  "express": "4.14.0",
-  "moment": "2.14.0"
+{
+  "name": "code-camp-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.14.0"
+  }
 }
