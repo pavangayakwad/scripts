@@ -25,4 +25,27 @@ MyArrows.ahk
 -------------------------------------------
 https://www.autohotkey.com/ is THE BEST software to automate most of the keybaord and mouse activities on Windows. This script has all my favorite hot keys for windows that I use daily. 
 
+Linux Keymapping
+-------------------------
+Installing "AutoKey" software, make sure linux is on X11 mode, Arrange scripts as shown in the screenshot
+
+![image](https://user-images.githubusercontent.com/1834890/125837258-0ce5e44f-5b90-448e-9bbb-2f5f3d4cf68f.png)
+
+Add following code for each key navigation
+
+`keyboard.send_key("<down>",1)`
+  
+`keyboard.send_key("<up>",1)`
+  
+`keyboard.send_key("<left>",1)`
+  
+`keyboard.send_key("<right>",1)`
+  
+`keyboard.send_key("<home>")`
+  
+`keyboard.send_key("<end>")`
+
+  
+  
+-------------------------------------
 For any assitance tweet me @PavanGayakwad
