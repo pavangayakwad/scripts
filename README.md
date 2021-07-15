@@ -27,7 +27,7 @@ https://www.autohotkey.com/ is THE BEST software to automate most of the keybaor
 
 Linux Keymapping
 -------------------------
-Installing "AutoKey" software, make sure linux is on X11 mode, Arrange scripts as shown in the screenshot
+Install **AutoKey** software, make sure linux is on **X11** mode, Arrange scripts as shown in the screenshot
 
 ![image](https://user-images.githubusercontent.com/1834890/125837258-0ce5e44f-5b90-448e-9bbb-2f5f3d4cf68f.png)
 
