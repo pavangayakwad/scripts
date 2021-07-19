@@ -41,6 +41,9 @@ https://github.com/vinceliuice/WhiteSur-gtk-theme
 https://gitlab.gnome.org/jrahmatzadeh/just-perfection
 
 
+**The best Clipboard Manager for linux**
+https://github.com/hluk/CopyQ
+
 Linux Keymapping
 -------------------------
 Install **AutoKey** software, make sure linux is on **X11** mode, Arrange scripts as shown in the screenshot
