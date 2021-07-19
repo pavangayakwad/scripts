@@ -42,6 +42,7 @@ https://gitlab.gnome.org/jrahmatzadeh/just-perfection
 
 
 **The best Clipboard Manager for linux**
+----------------------------------------
 https://github.com/hluk/CopyQ
 
 Linux Keymapping
