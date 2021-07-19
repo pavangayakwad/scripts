@@ -25,6 +25,22 @@ MyArrows.ahk
 -------------------------------------------
 https://www.autohotkey.com/ is THE BEST software to automate most of the keybaord and mouse activities on Windows. This script has all my favorite hot keys for windows that I use daily. 
 
+
+**The Best Emoji Utility for linux**
+------------------------------------
+https://snapcraft.io/install/emote/mint
+
+
+**The Best MacOS theme for linux**
+-------------------------------------
+https://github.com/vinceliuice/WhiteSur-gtk-theme
+
+
+**Bring linux top-bar to bottom**
+-------------------------------------
+https://gitlab.gnome.org/jrahmatzadeh/just-perfection
+
+
 Linux Keymapping
 -------------------------
 Install **AutoKey** software, make sure linux is on **X11** mode, Arrange scripts as shown in the screenshot
