@@ -45,6 +45,11 @@ https://gitlab.gnome.org/jrahmatzadeh/just-perfection
 ----------------------------------------
 https://github.com/hluk/CopyQ
 
+**The best Email Clinet for linux**
+-------------------------------------
+mailspring - free, open source and super good looking!
+
+
 Linux Keymapping
 -------------------------
 Install **AutoKey** software, make sure linux is on **X11** mode, Arrange scripts as shown in the screenshot
