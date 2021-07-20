@@ -34,20 +34,6 @@ return
 send, {Home down}
 return
 
-!z::
-  CoordMode, Mouse, Screen ; mouse coordinates relative to the screen
-  MouseGetPos, MouseX, MouseY
-  if (MouseX > A_ScreenWidth) {
-    MouseMove, -A_ScreenWidth, 0, 0, R
-  } else {
-    MouseMove, A_ScreenWidth, 0, 0, R
-  }
-return
-
-!c::
-	PostMessage, 0x112, 0xF060,,, A     ; ...so close window        
-    Return
-
 ;$Escape::                                               ; Long press (> 0.5 sec) on Esc closes window - but if you change your mind you can keep it pressed for 3 more seconds
 ;    KeyWait, Escape, T0.5                               ; Wait no more than 0.5 sec for key release (also suppress auto-repeat)
 ;    If ErrorLevel                                       ; timeout, so key is still down...

@@ -11,6 +11,8 @@ screeninfo = [
     if s.count("+") == 2
     ]
 
+#print(screeninfo)
+
 if display.Display().screen().root.query_pointer()._data["root_x"] <= 1365:
     arg="right"
 
