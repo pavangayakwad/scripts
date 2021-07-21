@@ -46,6 +46,8 @@ Add following code for each key navigation
 
 # The Best RDP Client - FreeRDP
 **FreeRDP is the best RDP client tool on Linux to connect windows servers install it as show below**
+``sudo apt install freerdp2-x11``
+**or**
 Get deb files from here: https://ci.freerdp.com/job/freerdp-nightly-binaries/architecture=amd64,distribution=hirsute,label=pkg-deb/
 
 Usage: https://github.com/FreeRDP/FreeRDP/wiki/CommandLineInterface
