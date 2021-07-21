@@ -20,6 +20,10 @@ https://github.com/hluk/CopyQ
 # The Best Email Clinet for linux - MailSpring
 mailspring - free, open source and super good looking! https://github.com/Foundry376/Mailspring however this should also be available in Software Store.
 
+# The GOOD video player so far.
+![image](https://user-images.githubusercontent.com/1834890/126486019-d7fbcd86-7393-4cf1-8f87-43c5e20e8940.png)
+
+
 # The Best X11 key mapping software - AutoKey
 **Install** AutoKey software, make sure linux is on **X11 mode**, Arrange scripts as shown in the screenshot
 
