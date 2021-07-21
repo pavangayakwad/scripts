@@ -42,9 +42,9 @@ Add following code for each key navigation
 
 # The Best RDP Client - FreeRDP
 **FreeRDP is the best RDP client tool on Linux to connect windows servers install it as show below**
+Get deb files from here: https://ci.freerdp.com/job/freerdp-nightly-binaries/architecture=amd64,distribution=hirsute,label=pkg-deb/
 
-``sudo apt install xfreerdp-x11 -y``
-
+Usage
 ``xfreerdp /u:username /v:<server_ip>:<port> /w:1366 /h:740 +clipboard /gdi:sw``
 
 # The Best Virtual Machine Software - KVM-QEMU
