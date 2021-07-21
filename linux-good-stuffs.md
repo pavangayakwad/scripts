@@ -48,8 +48,10 @@ Add following code for each key navigation
 **FreeRDP is the best RDP client tool on Linux to connect windows servers install it as show below**
 Get deb files from here: https://ci.freerdp.com/job/freerdp-nightly-binaries/architecture=amd64,distribution=hirsute,label=pkg-deb/
 
-Usage
-``xfreerdp /u:username /v:<server_ip>:<port> /w:1366 /h:740 +clipboard /gdi:sw``
+Usage: https://github.com/FreeRDP/FreeRDP/wiki/CommandLineInterface
+
+``xfreerdp /u:username /p:password /v:<server_ip>:<port> /w:1366 /h:740 +clipboard /gdi:sw``
+
 
 # The Best Virtual Machine Software - KVM-QEMU
 **KVM - QEMU**
