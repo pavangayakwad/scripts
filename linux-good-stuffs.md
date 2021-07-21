@@ -83,6 +83,14 @@ To check status of qemu after restart
 https://blog.programster.org/kvm-missing-default-network
 
 
+## Run .sh file when double clicked
+In dconfg-editor go to: ``org ➤ gnome ➤ nautilus ➤ preferences``
+Click on executable-text-activation and from drop down menu select:
+
+``launch``: to launch scripts as programs.
+OR
+``ask``: to ask what to do via a dialog
+
 # Setting up tomcat9 with tomcat9-admin
 https://github.com/RevatureGentry/DemoPipelineExample
 
