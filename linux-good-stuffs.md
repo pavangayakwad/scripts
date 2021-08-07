@@ -20,8 +20,14 @@ https://github.com/hluk/CopyQ
 # The Best Email Clinet for linux - MailSpring
 mailspring - free, open source and super good looking! https://github.com/Foundry376/Mailspring however this should also be available in Software Store.
 
+# The Best Windows like Taskbar for linux - Dash to Panel
+https://extensions.gnome.org/extension/1160/dash-to-panel/
+
+![image](https://user-images.githubusercontent.com/1834890/128613148-ea3110a2-02c2-4fdc-a498-27a1822faefe.png)
+
+
 # The GOOD video player so far.
-![image](https://user-images.githubusercontent.com/1834890/126486019-d7fbcd86-7393-4cf1-8f87-43c5e20e8940.png)
+Its VLC only
 
 
 # The Best X11 key mapping software - AutoKey
