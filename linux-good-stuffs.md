@@ -104,3 +104,7 @@ https://github.com/RevatureGentry/DemoPipelineExample
 # Super good stuff: Restore GRUB when Windows installation removes it!
 https://askubuntu.com/questions/83771/recovering-grub-after-installing-windows-7
 
+# How to set your custom font in GNOME
+Run the following in terminal
+
+`gsettings set org.gnome.desktop.interface font-name 'Inter Medium, 11'`
