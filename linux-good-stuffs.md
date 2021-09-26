@@ -11,9 +11,6 @@ https://snapcraft.io/install/emote/mint
 # The Best MacOS theme for linux - WhiteSur-Gtk-Theme
 https://github.com/vinceliuice/WhiteSur-gtk-theme
 
-# The Bring linux Top-bar to bottom - JustPerfection
-https://gitlab.gnome.org/jrahmatzadeh/just-perfection
-
 # The Best Clipboard Manager for linux - CopyQ
 https://github.com/hluk/CopyQ
 
@@ -25,6 +22,8 @@ https://extensions.gnome.org/extension/1160/dash-to-panel/
 
 ![image](https://user-images.githubusercontent.com/1834890/128613148-ea3110a2-02c2-4fdc-a498-27a1822faefe.png)
 
+# The Best linux Top-bar utility to bottom - JustPerfection
+https://gitlab.gnome.org/jrahmatzadeh/just-perfection
 
 # The GOOD video player so far.
 Its VLC only
