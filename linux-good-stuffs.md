@@ -111,3 +111,13 @@ https://askubuntu.com/questions/83771/recovering-grub-after-installing-windows-7
 Run the following in terminal
 
 `gsettings set org.gnome.desktop.interface font-name 'Inter Medium, 11'`
+
+# Switching apps with ALT + TAB is tricky in gnome, make it like Windows
+Use dconf-editor UI and change all 4 paths as shown below. Running these command won't work (phew..linux!)
+
+```
+gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Alt>Tab']"
+gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Shift><Alt>Tab']"
+gsettings set org.gnome.desktop.wm.keybindings switch-applications "['<Super>Tab']"
+gsettings set org.gnome.desktop.wm.keybindings switch-applications-backward "['<Shift><Super>Tab']"
+```
