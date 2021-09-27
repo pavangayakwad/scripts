@@ -1,6 +1,8 @@
 # The Best Emoji Utility - Emote
 https://snapcraft.io/install/emote/mint
 
+After installing this app add this in the startup command: `/snap/bin/emote`
+
 ![image](https://user-images.githubusercontent.com/1834890/126483364-a09f5804-2ca7-432a-9650-0d5ba6cff8e0.png)
 
 # The Best Screenshot utility - Flameshot
@@ -16,6 +18,8 @@ https://github.com/hluk/CopyQ
 
 # The Best Email Clinet for linux - MailSpring
 mailspring - free, open source and super good looking! https://github.com/Foundry376/Mailspring however this should also be available in Software Store.
+
+Though mailSpring adds itself in the startup, but just in-case if it missed: `mailspring --background %U`
 
 # The Best Windows like Taskbar for linux - Dash to Panel
 https://extensions.gnome.org/extension/1160/dash-to-panel/
