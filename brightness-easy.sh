@@ -1,2 +1,3 @@
-xrandr --output HDMI-0 --brightness 0.75
-xrandr --output DP-3 --brightness 0.75
+#!/bin/bash
+xrandr --output HDMI-0 --brightness 0.85
+
