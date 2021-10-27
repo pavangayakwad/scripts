@@ -63,6 +63,12 @@ Usage: https://github.com/FreeRDP/FreeRDP/wiki/CommandLineInterface
 
 ``xfreerdp /u:username /p:password /v:<server_ip>:<port> /w:1366 /h:740 +clipboard /gdi:sw``
 
+or
+
+`#!/bin/bash`
+
+`xfreerdp /u:username /p:password /v:<server_ip>:<port> /w:2560 /h:1440 +clipboard /gdi:sw /scale:180 /scale-desktop:200`
+
 
 # The Best Virtual Machine Software - KVM-QEMU
 **KVM - QEMU**
