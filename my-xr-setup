@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+xrandr --output HDMI-0 --scale 1.15x1.15
+
+killall -3 gnome-shell
