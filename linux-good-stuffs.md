@@ -23,6 +23,7 @@ Though mailSpring adds itself in the startup, but just in-case if it missed: `ma
 
 # The Best Windows like Taskbar for linux - Dash to Panel
 https://extensions.gnome.org/extension/1160/dash-to-panel/
+Incase the tray-icon stuff not working install this extension: https://extensions.gnome.org/extension/615/appindicator-support/
 
 ![image](https://user-images.githubusercontent.com/1834890/128613148-ea3110a2-02c2-4fdc-a498-27a1822faefe.png)
 
