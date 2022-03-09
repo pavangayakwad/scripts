@@ -1,19 +1,19 @@
 gsettings set org.gnome.mutter dynamic-workspaces true
 #gsettings set org.gnome.desktop.wm.preferences num-workspaces 4
-gsettings set org.gnome.shell.keybindings switch-to-application-1 [] 
-gsettings set org.gnome.shell.keybindings switch-to-application-2 [] 
-gsettings set org.gnome.shell.keybindings switch-to-application-3 [] 
-gsettings set org.gnome.shell.keybindings switch-to-application-4 [] 
+#gsettings set org.gnome.shell.keybindings switch-to-application-1 [] 
+#gsettings set org.gnome.shell.keybindings switch-to-application-2 [] 
+#gsettings set org.gnome.shell.keybindings switch-to-application-3 [] 
+#gsettings set org.gnome.shell.keybindings switch-to-application-4 [] 
 
-gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-1 "['<Super>1']" 
-gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-2 "['<Super>2']" 
-gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-3 "['<Super>3']" 
-gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-4 "['<Super>4']" 
+#gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-1 "['<Super>1']" 
+#gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-2 "['<Super>2']" 
+#gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-3 "['<Super>3']" 
+#gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-4 "['<Super>4']" 
  
-gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Super><Shift>1']" 
-gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-2 "['<Super><Shift>2']" 
-gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-3 "['<Super><Shift>3']" 
-gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-4 "['<Super><Shift>4']" 
+#gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Super><Shift>1']" 
+#gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-2 "['<Super><Shift>2']" 
+#gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-3 "['<Super><Shift>3']" 
+#gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-4 "['<Super><Shift>4']" 
 
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['<Primary><Super>left']"
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down "['<Primary><Super>down']"
