@@ -30,3 +30,12 @@ gsettings set org.gnome.desktop.wm.keybindings maximize "['<Super>Up']"
 
 gsettings set org.gnome.desktop.wm.keybindings close "['<Alt>c']"
 gsettings set org.gnome.settings-daemon.plugins.media-keys home "['<Super>e']"
+
+gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Alt>Tab']"
+gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Shift><Alt>Tab']"
+gsettings set org.gnome.desktop.wm.keybindings switch-applications "['<Super>Tab']"
+gsettings set org.gnome.desktop.wm.keybindings switch-applications-backward "['<Shift><Super>Tab']"
+
+gsettings set org.gnome.shell.window-switcher current-workspace-only true
+gsettings set org.gnome.shell.app-switcher current-workspace-only true
+
