@@ -53,6 +53,10 @@ Add following code for each key navigation
 
 ![image](https://user-images.githubusercontent.com/1834890/126483901-216eed3d-7d9f-40d3-94f2-56d2ffdfcc59.png)
 
+- From scripts folder on this repo copy files from `/scripts/autohotkey-linux/scripts-folder` to `/home/<user>/.config/autokey/data`
+- For OpenSUSE perform pip installation https://github.com/autokey/autokey/wiki/Installing#pip-installation (need to install python-devlopment)
+- Also expected to run this command `xhost +`
+
 
 # The Best RDP Client - FreeRDP
 **FreeRDP is the best RDP client tool on Linux to connect windows servers install it as show below**
