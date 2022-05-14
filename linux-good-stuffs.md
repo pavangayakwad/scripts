@@ -139,6 +139,9 @@ gsettings set org.gnome.shell.window-switcher current-workspace-only true
 gsettings set org.gnome.shell.app-switcher current-workspace-only true
 ```
 
+# Disable Gnome Animations
+`gsettings set org.gnome.desktop.interface enable-animations false`
+
 # Fix time zone problem when dual boot Windows
 
 `timedatectl set-local-rtc 1`
