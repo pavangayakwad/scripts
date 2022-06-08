@@ -143,5 +143,16 @@ gsettings set org.gnome.shell.app-switcher current-workspace-only true
 `gsettings set org.gnome.desktop.interface enable-animations false`
 
 # Fix time zone problem when dual boot Windows
-
 `timedatectl set-local-rtc 1`
+
+# X11 Mouse Setting
+`$ xinput`
+It will list all the availalbe inputs iwth id numbers for me, it was "Logitech Wireless Mouse                 	id=11"
+
+`xinput --list-props "Logitech Wireless Mouse"`
+This lists all variables for mouse where acceleration speed is: **libinput Accel Speed (301):	-0.400000**
+
+`xinput --set-prop 11 301 -0.58500` to set the mosue speed with precision!
+
+
+
