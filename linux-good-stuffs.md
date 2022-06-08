@@ -152,7 +152,7 @@ It will list all the availalbe inputs iwth id numbers for me, it was "Logitech W
 `xinput --list-props "Logitech Wireless Mouse"`
 This lists all variables for mouse where acceleration speed is: **libinput Accel Speed (301):	-0.400000**
 
-`xinput --set-prop 11 301 -0.58500` to set the mosue speed with precision!
+`xinput --set-prop 11 301 -0.58200` to set the mosue speed with precision!
 
 
 
