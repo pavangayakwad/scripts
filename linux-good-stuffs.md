@@ -163,3 +163,8 @@ Write shell script and make sure the
 
 # Set NEMO as your default file manager
 https://sourcedigit.com/13826-set-nemo-default-file-manager-ubuntu/
+
+Set tilix as default terminal `gsettings set org.cinnamon.desktop.default-applications.terminal exec tilix`
+
+
+Restore gnome-terminal as default terminal `gsettings set org.gnome.desktop.default-applications.terminal exec tilix`
