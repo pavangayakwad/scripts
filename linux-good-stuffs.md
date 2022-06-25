@@ -154,5 +154,10 @@ This lists all variables for mouse where acceleration speed is: **libinput Accel
 
 `xinput --set-prop 11 301 -0.59800` to set the mosue speed with precision!
 
+# Run .sh file on system boot
+Write shell script and make sure the 
+- first line is always `#!/bin/sh` 
+- make the file as executable
+- place the file in the following path: `/etc/init.d/`
 
 
