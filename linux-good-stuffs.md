@@ -161,3 +161,5 @@ Write shell script and make sure the
 - place the file in the following path: `/etc/init.d/`
 
 
+# Set NEMO as your default file manager
+https://sourcedigit.com/13826-set-nemo-default-file-manager-ubuntu/
