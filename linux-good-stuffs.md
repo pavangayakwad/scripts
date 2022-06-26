@@ -168,3 +168,7 @@ Set tilix as default terminal `gsettings set org.cinnamon.desktop.default-applic
 
 
 Restore gnome-terminal as default terminal `gsettings set org.gnome.desktop.default-applications.terminal exec tilix`
+
+# Configure GNOME advanced properties
+https://extensions.gnome.org/extension/4254/shell-configurator/
+
