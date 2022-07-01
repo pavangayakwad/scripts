@@ -56,6 +56,7 @@ Add following code for each key navigation
 - From scripts folder on this repo copy files from `/scripts/autohotkey-linux/scripts-folder` to `/home/<user>/.config/autokey/data`
 - For OpenSUSE perform pip installation https://github.com/autokey/autokey/wiki/Installing#pip-installation (need to install python-devlopment)
 - Also expected to run this command `xhost +`
+- On Fedora use this command `sudo dnf install autokey-gtk.noarch autokey-common.noarch`
 
 
 # The Best RDP Client - FreeRDP
