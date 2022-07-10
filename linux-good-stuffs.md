@@ -103,6 +103,8 @@ To check status of qemu after restart
 ### cockpit to manage VMs (TEH BEST)
 https://dausruddin.com/how-to-enable-clipboard-and-folder-sharing-in-qemu-kvm-on-windows-guest/
 
+The file sharing has file transfer limits the fix is here: https://www.thewindowsclub.com/file-size-exceeds-limit-allowed-cannot-saved
+
 ## If the network fail to work
 https://blog.programster.org/kvm-missing-default-network
 
