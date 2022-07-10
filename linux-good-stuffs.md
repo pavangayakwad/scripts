@@ -89,6 +89,8 @@ Open `/etc/libvirt/qemu.conf` and uncomment / change below lines from -> to
 
 `#group = "root"` ==> `group = "root"`
 
+AND on Fedora (or if virt-manager is asking for auth everytime) run this command `sudo usermod -a -G libvirt $USER`
+
 **_restart computer_**
 
 To check status of qemu after restart
