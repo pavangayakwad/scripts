@@ -100,7 +100,8 @@ To check status of qemu after restart
 ### How to fully remove QEMU 
 
 `sudo apt-get purge --auto-remove qemu-kvm`
-
+### cockpit to manage VMs (TEH BEST)
+https://dausruddin.com/how-to-enable-clipboard-and-folder-sharing-in-qemu-kvm-on-windows-guest/
 
 ## If the network fail to work
 https://blog.programster.org/kvm-missing-default-network
