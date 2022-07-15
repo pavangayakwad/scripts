@@ -12,7 +12,9 @@ After installing this app add this in the startup command: `/snap/bin/emote`
 
 # gTile 
 Get it from extensions.
+
 Preset resize 1: `20x20 1:1 11:20`, and in Accelerators section shortcut as `Ctrl+Alt+1`
+
 Preset resize 2: `20x20 12:1 20:20`, and in Accelerators section shortcut as `Ctrl+Alt+2`
 
 # The Best MacOS theme for linux - WhiteSur-Gtk-Theme
