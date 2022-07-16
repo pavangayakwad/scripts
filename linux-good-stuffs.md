@@ -17,6 +17,13 @@ Preset resize 1: `20x20 1:1 11:20`, and in Accelerators section shortcut as `Ctr
 
 Preset resize 2: `20x20 12:1 20:20`, and in Accelerators section shortcut as `Ctrl+Alt+2`
 
+Preset resize 3: `20x20 12:1 20:10,12:11 20:20`, and in Accelerators section shortcut as `Ctrl+Alt+3`
+
+Preset resize 4: `20x20 1:1 11:10,1:11 11:20`, and in Accelerators section shortcut as `Ctrl+Alt+4`
+
+Preset resize 5: `20x20 12:1 20:10,12:11 20:20,1:1 11:10,1:11 11:20`, and in Accelerators section shortcut as `Ctrl+Alt+q`
+
+
 # The Best MacOS theme for linux - WhiteSur-Gtk-Theme
 https://github.com/vinceliuice/WhiteSur-gtk-theme
 
