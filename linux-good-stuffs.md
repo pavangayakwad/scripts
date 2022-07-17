@@ -27,6 +27,9 @@ Preset resize 5: `20x20 12:1 20:10,12:11 20:20,1:1 11:10,1:11 11:20`, and in Acc
 # The Best MacOS theme for linux - WhiteSur-Gtk-Theme
 https://github.com/vinceliuice/WhiteSur-gtk-theme
 
+# GIT extension of Nautilus
+`sudo dnf install rabbitvcs-nautilus` or `sudo apt install rabbitvcs-nautilus`
+
 # The Best Clipboard Manager for linux - CopyQ
 https://github.com/hluk/CopyQ
 
