@@ -30,6 +30,8 @@ https://github.com/vinceliuice/WhiteSur-gtk-theme
 # GIT extension of Nautilus
 `sudo dnf install rabbitvcs-nautilus` or `sudo apt install rabbitvcs-nautilus`
 
+Copy edited icons from this repo folder `rabbitvcs-icons` to `/usr/share/icons/hicolor/scalable/emblems`
+
 # The Best Clipboard Manager for linux - CopyQ
 https://github.com/hluk/CopyQ
 
