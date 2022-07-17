@@ -26,7 +26,11 @@ Preset resize 5: `20x20 12:1 20:10,12:11 20:20,1:1 11:10,1:11 11:20`, and in Acc
 # Brightness controller for Gnome: Display DDC Brightness & Volume
 Follow these instructions: https://github.com/SaGrLand/gnome-shell-display-ddc-brightness-volume/, restart the computer and only then install the extension https://extensions.gnome.org/extension/4712/display-ddc-brightness-volume/ to get it working properly.
 
+# Start to Desktop, instead of Gnome overview
+https://extensions.gnome.org/extension/4099/no-overview/
 
+# Avoid "Window Ready" but get tem fron.
+https://extensions.gnome.org/extension/2182/noannoyance/
 
 # The Best MacOS theme for linux - WhiteSur-Gtk-Theme
 https://github.com/vinceliuice/WhiteSur-gtk-theme
