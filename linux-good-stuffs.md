@@ -10,6 +10,9 @@ After installing this app add this in the startup command: `/snap/bin/emote`
 
 ![image](https://user-images.githubusercontent.com/1834890/126483438-070ff5c6-b7b3-43f5-bb2e-c6a2347ddd14.png)
 
+# Rounded Window Corners - ALL
+https://extensions.gnome.org/extension/5237/rounded-window-corners/
+
 # gTile 
 Get it from extensions.
 
