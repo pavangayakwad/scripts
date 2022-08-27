@@ -212,4 +212,5 @@ https://extensions.gnome.org/extension/4254/shell-configurator/
 open `/etc/dnf/dnf.conf` and add
 
 `fastestmirror=True`
+
 `max_parallel_downloads=10`
