@@ -208,3 +208,7 @@ Restore gnome-terminal as default terminal `gsettings set org.gnome.desktop.defa
 # Configure GNOME advanced properties
 https://extensions.gnome.org/extension/4254/shell-configurator/
 
+# Fedora : Fastest mirror for dnf
+1. open `/etc/dnf/dnf.conf`
+2. add `fastestmirror=True`
+3. add `max_parallel_downloads=10`
