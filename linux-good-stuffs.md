@@ -38,6 +38,11 @@ https://extensions.gnome.org/extension/2182/noannoyance/
 # The Best MacOS theme for linux - WhiteSur-Gtk-Theme
 https://github.com/vinceliuice/WhiteSur-gtk-theme
 
+# Top-bar Semi-transparent
+1. Install this extension https://extensions.gnome.org/extension/4173/clear-top-bar/
+2. Change code as shown below.
+![image](https://user-images.githubusercontent.com/1834890/187960181-07c5a21e-85a1-4820-a61f-b0d58f561ef3.png)
+
 # GIT extension of Nautilus
 `sudo dnf install rabbitvcs-nautilus` or `sudo apt install rabbitvcs-nautilus`
 
