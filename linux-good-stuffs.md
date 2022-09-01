@@ -40,7 +40,8 @@ https://github.com/vinceliuice/WhiteSur-gtk-theme
 
 # Top-bar Semi-transparent
 1. Install this extension https://extensions.gnome.org/extension/4173/clear-top-bar/
-2. Change code as shown below.
+2. Go to : /home/pavan/.local/share/gnome-shell/extensions/clear-top-bar@superterran.net/ and edit `stylesheet.css'
+3. Change code as shown below
 ![image](https://user-images.githubusercontent.com/1834890/187960181-07c5a21e-85a1-4820-a61f-b0d58f561ef3.png)
 
 # GIT extension of Nautilus
