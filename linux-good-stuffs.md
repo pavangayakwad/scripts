@@ -136,7 +136,12 @@ To check status of qemu after restart
 ### How to fully remove QEMU 
 
 `sudo apt-get purge --auto-remove qemu-kvm`
-### cockpit to manage VMs (TEH BEST)
+
+### Share clipboard with linux guest
+
+`sudo apt install spice-vdagent`
+
+### cockpit to manage VMs (THE BEST)
 https://dausruddin.com/how-to-enable-clipboard-and-folder-sharing-in-qemu-kvm-on-windows-guest/
 
 The file sharing has file transfer limits the fix is here: https://www.thewindowsclub.com/file-size-exceeds-limit-allowed-cannot-saved
