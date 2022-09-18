@@ -1,7 +1,4 @@
-# scripts
-xrdp-installer-1.1.sh 
-----------------------------
-The script is borrowed from http://www.c-nergy.be - http://www.c-nergy.be/blog and his comments are retained as is in the script. It is tuned to work well with Peppermint OS 10. 
+# Scripts
 
 docker
 -----------------------------
