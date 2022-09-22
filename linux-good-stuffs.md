@@ -228,3 +228,6 @@ open `/etc/dnf/dnf.conf` and add
 `fastestmirror=True`
 
 `max_parallel_downloads=10`
+
+# Default X-Terminal Setting
+sudo update-alternatives --config x-terminal-emulator
