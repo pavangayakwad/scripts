@@ -231,3 +231,6 @@ open `/etc/dnf/dnf.conf` and add
 
 # Default X-Terminal Setting
 sudo update-alternatives --config x-terminal-emulator
+
+# Some more inspirations
+https://github.com/bearlike/my-popos-setup
