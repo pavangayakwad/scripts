@@ -29,6 +29,9 @@ Preset resize 5: `20x20 12:1 20:10,12:11 20:20,1:1 11:10,1:11 11:20`, and in Acc
 # Brightness controller for Gnome: Display DDC Brightness & Volume
 Follow these instructions: https://github.com/SaGrLand/gnome-shell-display-ddc-brightness-volume/, restart the computer and only then install the extension https://extensions.gnome.org/extension/4712/display-ddc-brightness-volume/ to get it working properly.
 
+# Best tip to reduce Gnome 43 window header bar
+https://askubuntu.com/questions/1358632/how-to-reduce-the-height-of-headerbar-titlebar-of-gtk3-apps-using-csd
+
 # Start to Desktop, instead of Gnome overview
 https://extensions.gnome.org/extension/4099/no-overview/
 
