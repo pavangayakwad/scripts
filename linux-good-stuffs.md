@@ -1,5 +1,5 @@
 # The Best Emoji Utility - Emote
-https://snapcraft.io/install/emote/mint
+https://snapcraft.io/emote
 
 After installing this app add this in the startup command: `/snap/bin/emote`
 
