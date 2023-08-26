@@ -48,6 +48,18 @@ https://extensions.gnome.org/extension/2182/noannoyance/
 # The Best MacOS theme for linux - WhiteSur-Gtk-Theme
 https://github.com/vinceliuice/WhiteSur-gtk-theme
 
+# Top-bar Semi-transparent (Gnome 44)
+1. Install the extension: https://github.com/esorio/transparent-topbar
+2. Go to : `/home/pavan/.local/share/gnome-shell/extensions/TransparentTopbar@enrico.sorio.net` open `stylesheet.css` file
+3. Update code as shown below:
+```
+.panel-transparency {
+    background-color: rgba(0, 0, 0, 0.35);
+    box-shadow: none;
+    border: none;
+}
+```
+
 # Top-bar Semi-transparent
 1. Install this extension https://extensions.gnome.org/extension/4173/clear-top-bar/
 2. Go to : /home/pavan/.local/share/gnome-shell/extensions/clear-top-bar@superterran.net/ and edit `stylesheet.css'
