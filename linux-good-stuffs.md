@@ -26,6 +26,8 @@ Preset resize 4: `20x20 12:1 20:10,12:11 20:20`, and in Accelerators section sho
 
 Preset resize 5: `20x20 12:1 20:10,12:11 20:20,1:1 11:10,1:11 11:20`, and in Accelerators section shortcut as `Ctrl+Alt+q`
 
+Preset resize 6: `20x20 4:1 17:20`, and in Accelerators section shortcut as `Ctrl+Alt+w`
+
 # Brightness controller for Gnome: Display DDC Brightness & Volume [POP-OS]
 Follow these instructions: https://github.com/SaGrLand/gnome-shell-display-ddc-brightness-volume/, restart the computer and only then install the extension https://extensions.gnome.org/extension/4712/display-ddc-brightness-volume/ to get it working properly.
 
