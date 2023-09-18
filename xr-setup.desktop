@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/pavan/Apps/scripts/my-xr-setup.sh
+Hidden=true
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
+Name[en_US]=XRSetup
+Name=XRSetup
+Comment[en_US]=
+Comment=
