@@ -21,21 +21,7 @@
   zramSwap.enable = true;
   
   boot.kernelModules = ["i2c_dev"];
-  services.udev.extraRules = ''
-      KERNEL=="i2c-[0-9]*", GROUP="i2c", MODE="0660"
-  '';
-
-  systemd.services."ddcci@" = {
-  	scriptArgs = "%i";
-  	script = ''
-	  	echo Trying to attach ddcci to $1
-	  	i=0
-	  	id=$(echo $1 | cut -d "-" -f 2)
-	  	if ${pkgs.ddcutil}/bin/ddcutil getvcp 10 -b $id; then
-	  	  echo ddcci 0x37 > /sys/bus/i2c/devices/$1/new_device
-	  	fi
-  	'';
-  };
+  services.udev.extraRules = ''KERNEL=="i2c-[0-9]*", GROUP="ddc", MODE="0660", PROGRAM="${pkgs.ddcutil}/bin/ddcutil --bus=%n getvcp 0x10"'';
 
   networking.hostName = "mars"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -105,11 +91,12 @@
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
+  users.groups.ddc = { };
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.pavan = {
     isNormalUser = true;
     description = "Pavan";
-    extraGroups = [ "networkmanager" "wheel" "docker" "i2c" "libvirtd"];
+    extraGroups = [ "networkmanager" "wheel" "docker" "i2c" "libvirtd" "ddc"];
     packages = with pkgs; [
 	firefox
 	thunderbird
@@ -149,6 +136,7 @@
 	pkgs.xorg.fonttosfnt 
 	lshw 
 	ddcutil 
+	ddcui
 	gnomeExtensions.gtile 
 	gnomeExtensions.brightness-control-using-ddcutil 
 	gnomeExtensions.color-picker 
