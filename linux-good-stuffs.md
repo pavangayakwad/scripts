@@ -117,6 +117,8 @@ Add following code for each key navigation
 
 ``keyboard.send_key("<end>")``
 
+``window.resize_move(window.get_active_title(),650,-55,3300,3160, False)`` (set shortcut key accordinly CTRL + ALT + W)
+
 ![image](https://user-images.githubusercontent.com/1834890/126483901-216eed3d-7d9f-40d3-94f2-56d2ffdfcc59.png)
 
 - From scripts folder on this repo copy files from `/scripts/autohotkey-linux/scripts-folder` to `/home/<user>/.config/autokey/data`
