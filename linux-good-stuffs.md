@@ -263,3 +263,6 @@ sudo update-alternatives --config x-terminal-emulator
 
 # Some more inspirations
 https://github.com/bearlike/my-popos-setup
+
+# Best Extensions
+Appindicator - https://extensions.gnome.org/extension/615/appindicator-support/
