@@ -53,7 +53,7 @@ https://extensions.gnome.org/extension/2182/noannoyance/
 # The Best MacOS theme for linux - WhiteSur-Gtk-Theme
 https://github.com/vinceliuice/WhiteSur-gtk-theme
 
-# Tob Bar Transparent (Gnome 45)
+# Tob Bar Transparent Adjustable (Gnome 45)
 `https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/`
 
 # Top-bar Semi-transparent (Gnome 44)
@@ -73,9 +73,6 @@ https://github.com/vinceliuice/WhiteSur-gtk-theme
 2. Go to : /home/pavan/.local/share/gnome-shell/extensions/clear-top-bar@superterran.net/ and edit `stylesheet.css'
 3. Change code as shown below
 ![image](https://user-images.githubusercontent.com/1834890/187961394-c709ac92-7f2e-4d23-b734-3135a802a3ec.png)
-
-# Gnome 34 Top bar transparent
-https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/
 
 # Color-picker extension
 https://extensions.gnome.org/extension/3396/color-picker/
