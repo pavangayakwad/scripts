@@ -1,3 +1,6 @@
+# HiDPI-Fixer
+Huge time saver app: `https://github.com/alex-spataru/HiDPI-Fixer`
+
 # The Best Emoji Utility - Emote
 https://snapcraft.io/emote
 
