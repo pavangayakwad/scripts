@@ -19,15 +19,15 @@ https://extensions.gnome.org/extension/5237/rounded-window-corners/
 # gTile 
 Get it from extensions.
 
-Preset resize 1: `20x20 1:1 11:20`, and in Accelerators section shortcut as `Ctrl+Alt+1`
+Preset resize 1: `20x20 1:1 10:10`, and in Accelerators section shortcut as `Ctrl+Alt+1`
 
-Preset resize 2: `20x20 12:1 20:20`, and in Accelerators section shortcut as `Ctrl+Alt+2`
+Preset resize 2: `20x20 11:1 20:10`, and in Accelerators section shortcut as `Ctrl+Alt+2`
 
-Preset resize 3: `20x20 1:1 11:10,1:11 11:20`, and in Accelerators section shortcut as `Ctrl+Alt+3`
+Preset resize 3: `20x20 1:10 10:20`, and in Accelerators section shortcut as `Ctrl+Alt+3`
 
-Preset resize 4: `20x20 12:1 20:10,12:11 20:20`, and in Accelerators section shortcut as `Ctrl+Alt+4`
+Preset resize 4: `20x20 11:10 20:20`, and in Accelerators section shortcut as `Ctrl+Alt+4`
 
-Preset resize 5: `20x20 12:1 20:10,12:11 20:20,1:1 11:10,1:11 11:20`, and in Accelerators section shortcut as `Ctrl+Alt+q`
+Preset resize 5: `20x20 1:1 10:10,20x20 11:1 20:10,20x20 1:10 10:20,20x20 11:10 20:20`, and in Accelerators section shortcut as `Ctrl+Alt+q`
 
 Preset resize 6: `20x20 4:1 17:20`, and in Accelerators section shortcut as `Ctrl+Alt+w`
 
