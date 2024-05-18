@@ -118,7 +118,7 @@ Add following code for each key navigation
 ![image](https://user-images.githubusercontent.com/1834890/126483901-216eed3d-7d9f-40d3-94f2-56d2ffdfcc59.png)
 
 - From scripts folder on this repo copy files from `/scripts/autohotkey-linux/scripts-folder` to `/home/<user>/.config/autokey/data`
-- For OpenSUSE perform pip installation https://github.com/autokey/autokey/wiki/Installing#pip-installation (need to install python-devlopment)
+- For OpenSUSE perform pip installation https://github.com/autokey/autokey/wiki/Installing#pip-installation (need to install python-devlopment) or run this command `sudo pip install autokey --break-system-packages`
 - Also expected to run this command `xhost +`
 - On Fedora use this command `sudo dnf install autokey-gtk.noarch autokey-common.noarch`
 
