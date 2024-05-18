@@ -262,3 +262,10 @@ https://github.com/bearlike/my-popos-setup
 
 # Best Extensions
 Appindicator - https://extensions.gnome.org/extension/615/appindicator-support/
+
+# ZRAM to improve performance
+`sudo zypper in systemd-zram-service && sudo zramswapon`
+
+To turn it off `sudo zramswapoff`
+
+Zram uses your CPU to compress swap which makes your PC faster
