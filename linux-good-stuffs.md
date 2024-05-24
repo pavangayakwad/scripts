@@ -255,7 +255,7 @@ open `/etc/dnf/dnf.conf` and add
 `max_parallel_downloads=10`
 
 # Default X-Terminal Setting
-sudo update-alternatives --config x-terminal-emulator
+`sudo update-alternatives --config x-terminal-emulator`
 
 # Some more inspirations
 https://github.com/bearlike/my-popos-setup
