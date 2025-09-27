@@ -100,7 +100,30 @@ return
 
 ; CTRL+D to duplicate current tab in File Explorer
 ^d::
-	Send, ^t  ; Ctrl+T creates a new tab (duplicates current location)
+	; Method 1: Try using Alt+D to select address bar (more reliable than Ctrl+L)
+	Send, !d  ; Alt+D selects address bar
+	Sleep, 100
+	Send, ^a  ; Select all text in address bar
+	Sleep, 50
+	Send, ^c  ; Copy the path
+	Sleep, 50
+	Send, {Escape}  ; Close address bar dropdown and return focus to file list
+	Sleep, 50
+	
+	; Open new tab
+	Send, ^t  ; Ctrl+T opens new tab
+	Sleep, 200  ; Give more time for new tab to load
+	
+	; Paste the path and navigate
+	Send, !d  ; Select address bar in new tab
+	Sleep, 100
+	Send, ^v  ; Paste the path
+	Sleep, 100
+	Send, {Enter}  ; Navigate to the pasted path
+	Send, {Tab 10}
+	Send, ^e
+	Sleep, 50
+	Send, {Enter}
 return
 
 ; CTRL+PageUp to show next tab
