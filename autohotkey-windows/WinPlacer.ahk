@@ -88,3 +88,29 @@ return
 		CurrentQuadrant := 1  ; Reset to first quadrant after 4th
 	}
 return
+
+; ALT+\ to activate Windows native move mode
+!\::
+	; Send Alt+Space to open system menu, then M for Move
+	Send, !{Space}m
+return
+
+; Windows File Explorer specific hotkeys
+#IfWinActive ahk_class CabinetWClass
+
+; CTRL+D to duplicate current tab in File Explorer
+^d::
+	Send, ^t  ; Ctrl+T creates a new tab (duplicates current location)
+return
+
+; CTRL+PageUp to show next tab
+^PgUp::
+	Send, ^+{Tab}  ; Ctrl+Shift+Tab switches to previous tab
+return
+
+; CTRL+PageDown to show previous tab
+^PgDn::
+	Send, ^{Tab}  ; Ctrl+Tab switches to next tab
+return
+
+#IfWinActive  ; Reset context for other hotkeys
