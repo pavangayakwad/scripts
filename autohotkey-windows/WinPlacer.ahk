@@ -103,11 +103,7 @@ return
 	; Method 1: Try using Alt+D to select address bar (more reliable than Ctrl+L)
 	Send, !d  ; Alt+D selects address bar
 	Sleep, 100
-	Send, ^a  ; Select all text in address bar
-	Sleep, 50
 	Send, ^c  ; Copy the path
-	Sleep, 50
-	Send, {Escape}  ; Close address bar dropdown and return focus to file list
 	Sleep, 50
 	
 	; Open new tab
@@ -120,10 +116,10 @@ return
 	Send, ^v  ; Paste the path
 	Sleep, 100
 	Send, {Enter}  ; Navigate to the pasted path
+	Sleep, 100
 	Send, {Tab 10}
-	Send, ^e
-	Sleep, 50
-	Send, {Enter}
+	Sleep, 200
+	Send, {Enter}  ; Navigate to the pasted path
 return
 
 ; CTRL+PageUp to show next tab
