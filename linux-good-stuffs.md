@@ -1,6 +1,9 @@
 # GIT in nautilus
 Read the install instructions from the README of repo: `https://gitlab.gnome.org/philippun1/turtle`, the flatpak install version didn't work Gnome 46 when I tried. 
 
+# CopyQ alternative
+https://extensions.gnome.org/extension/779/clipboard-indicator/
+
 # HiDPI-Fixer
 Huge time saver app: `https://github.com/alex-spataru/HiDPI-Fixer`
 
