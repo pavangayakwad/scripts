@@ -1,3 +1,7 @@
+# Remember Window Position and Restore Extension
+Smart Auto Move NG by Chris
+https://extensions.gnome.org/extension/8149/smart-auto-move-ng/
+
 # GIT in nautilus
 Read the install instructions from the README of repo: `https://gitlab.gnome.org/philippun1/turtle`, the flatpak install version didn't work Gnome 46 when I tried. 
 
