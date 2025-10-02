@@ -1,6 +1,9 @@
 # Must have Extensions
 <img width="997" height="699" alt="image" src="https://github.com/user-attachments/assets/ed979b4a-5cba-4a33-86ff-d7dc7a2de678" />
 
+# Menu Editor (Python program)
+[https://codeberg.org/libre-menu-editor/libre-menu-editor](https://codeberg.org/libre-menu-editor/libre-menu-editor)
+
 # Remember Window Position and Restore Extension
 Smart Auto Move NG by Chris
 https://extensions.gnome.org/extension/8149/smart-auto-move-ng/
